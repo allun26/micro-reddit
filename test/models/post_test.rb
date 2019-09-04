@@ -11,6 +11,12 @@ class PostTest < ActiveSupport::TestCase
     assert @post.valid?
   end 
 
+  test "post should have a title of at least 50 characters" do
+    post_duplicate = @post.dup
+    post_duplicate.title = '2'
+    assert_not post_duplicate.valid?
+  end
+
   
 
 end
