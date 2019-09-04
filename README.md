@@ -1,8 +1,9 @@
 # Micro-Reddit
 
-This is a project from microverse were we should build a small rails app working in the console with users, comments, and posts focusing on associasions.
+## Description
+A version of Reddit that let's you create users, create posts and write comments via the terminal.
 
-Project made by:
+Project made in Rails by:
 + [Alexander Einshøj Lund](https://github.com/allun26)
 + [Oluwadamilare Olusakin ](https://github.com/Oluwadamilareolusakin)
 
