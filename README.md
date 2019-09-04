@@ -1,24 +1,8 @@
-# README
+# Micro-Reddit
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a project from microverse were we should build a small rails app working in the console with users, comments, and posts focusing on associasions.
 
-Things you may want to cover:
+Project made by:
++ [Alexander Einshøj Lund](https://github.com/allun26)
++ [Oluwadamilare Olusakin ](https://github.com/Oluwadamilareolusakin)
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
