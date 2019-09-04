@@ -17,6 +17,10 @@ class PostTest < ActiveSupport::TestCase
     assert_not post_duplicate.valid?
   end
 
-  
+  test "post should have a body" do
+    post_duplicate = @post.dup
+    post_duplicate.body = nil
+    assert_not post_duplicate.valid?
+  end
 
 end
