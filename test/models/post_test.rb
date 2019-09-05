@@ -4,7 +4,7 @@ class PostTest < ActiveSupport::TestCase
   def setup
     @user = User.new(name: "Jacob", email: "jacob@yahoo.com")
     @user.save!
-    @post = Post.new(title: "A mundane title", body: "A new post that has a 50 character body for sure, or am I?", user_id: @user.id)
+    @post = @user.posts.build(title: "A mundane title", body: "A new post that has a 50 character body for sure, or am I?")
   end
 
   test "post should be valid" do
