@@ -8,4 +8,4 @@ linters:
     
 files:
   ignore:
-    - 'db/schema.rb'
+    - 'db/*'
