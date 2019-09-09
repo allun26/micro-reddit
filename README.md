@@ -1,24 +1,9 @@
-# README
+# Micro-Reddit
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Description
+A version of Reddit that let's you create users, create posts and write comments via the terminal.
 
-Things you may want to cover:
+Project made in Rails by:
++ [Alexander Einshøj Lund](https://github.com/allun26)
++ [Oluwadamilare Olusakin ](https://github.com/Oluwadamilareolusakin)
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
